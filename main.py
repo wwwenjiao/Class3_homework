@@ -17,6 +17,8 @@ mult_matrix = np.multiply(matrix, new_matrix)
 # Sum of all elements in element-wise multiplied matrix
 sum_mult_matrix = np.sum(mult_matrix)
 
+# Average of all elements in element-wise multiplied matrix
+mean_mult_matrix = np.mean(mult_matrix)
 
 print(f"Original matrix: {matrix}")
 print(f"Reshaped 1D array: {arr}")
@@ -26,5 +28,5 @@ print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix: {sum_mult_matrix}")
 print(f"Mean of all elements in element-wise multiplied matix: {mean_mult_matrix}")
-print(" ")
+
 
